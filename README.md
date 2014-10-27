@@ -1,4 +1,4 @@
 patagonia
 =========
 
-Ultralight swift library for connecting to Salesforce
+Ultralight Swift library for connecting to Salesforce
