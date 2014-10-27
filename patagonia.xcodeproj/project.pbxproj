@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E76EC77D19FEE93400824A36 /* OAuth2 in Resources */ = {isa = PBXBuildFile; fileRef = E76EC77C19FEE93400824A36 /* OAuth2 */; };
 		E7BDB9D419FEC0E300DEDBEC /* patagonia.h in Headers */ = {isa = PBXBuildFile; fileRef = E7BDB9D319FEC0E300DEDBEC /* patagonia.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E7BDB9DA19FEC0E300DEDBEC /* patagonia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7BDB9CE19FEC0E300DEDBEC /* patagonia.framework */; };
 		E7BDB9E119FEC0E300DEDBEC /* patagoniaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BDB9E019FEC0E300DEDBEC /* patagoniaTests.swift */; };
 		E7BDB9F619FEC23E00DEDBEC /* Alamofire.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = E7BDB9F019FEC17400DEDBEC /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E7BDB9FB19FEC82100DEDBEC /* Patgonia.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BDB9FA19FEC82100DEDBEC /* Patgonia.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E76EC77C19FEE93400824A36 /* OAuth2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = OAuth2; sourceTree = "<group>"; };
 		E7BDB9CE19FEC0E300DEDBEC /* patagonia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = patagonia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7BDB9D219FEC0E300DEDBEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7BDB9D319FEC0E300DEDBEC /* patagonia.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = patagonia.h; sourceTree = "<group>"; };
@@ -67,6 +70,7 @@
 		E7BDB9E019FEC0E300DEDBEC /* patagoniaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = patagoniaTests.swift; sourceTree = "<group>"; };
 		E7BDB9EA19FEC17400DEDBEC /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
 		E7BDB9F719FEC25B00DEDBEC /* Patagonia.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Patagonia.playground; sourceTree = "<group>"; };
+		E7BDB9FA19FEC82100DEDBEC /* Patgonia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Patgonia.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,8 +95,8 @@
 		E7BDB9C419FEC0E300DEDBEC = {
 			isa = PBXGroup;
 			children = (
-				E7BDB9F719FEC25B00DEDBEC /* Patagonia.playground */,
 				E7BDB9EA19FEC17400DEDBEC /* Alamofire.xcodeproj */,
+				E7BDB9F719FEC25B00DEDBEC /* Patagonia.playground */,
 				E7BDB9D019FEC0E300DEDBEC /* patagonia */,
 				E7BDB9DD19FEC0E300DEDBEC /* patagoniaTests */,
 				E7BDB9CF19FEC0E300DEDBEC /* Products */,
@@ -111,8 +115,10 @@
 		E7BDB9D019FEC0E300DEDBEC /* patagonia */ = {
 			isa = PBXGroup;
 			children = (
+				E76EC77C19FEE93400824A36 /* OAuth2 */,
 				E7BDB9D319FEC0E300DEDBEC /* patagonia.h */,
 				E7BDB9D119FEC0E300DEDBEC /* Supporting Files */,
+				E7BDB9FA19FEC82100DEDBEC /* Patgonia.swift */,
 			);
 			path = patagonia;
 			sourceTree = "<group>";
@@ -266,6 +272,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E76EC77D19FEE93400824A36 /* OAuth2 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +290,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7BDB9FB19FEC82100DEDBEC /* Patgonia.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +406,7 @@
 		E7BDB9E519FEC0E300DEDBEC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -407,12 +416,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		E7BDB9E619FEC0E300DEDBEC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
