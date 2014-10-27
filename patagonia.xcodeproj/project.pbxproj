@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E7BDB9D419FEC0E300DEDBEC /* patagonia.h in Headers */ = {isa = PBXBuildFile; fileRef = E7BDB9D319FEC0E300DEDBEC /* patagonia.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7BDB9DA19FEC0E300DEDBEC /* patagonia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7BDB9CE19FEC0E300DEDBEC /* patagonia.framework */; };
+		E7BDB9E119FEC0E300DEDBEC /* patagoniaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BDB9E019FEC0E300DEDBEC /* patagoniaTests.swift */; };
+		E7BDB9F619FEC23E00DEDBEC /* Alamofire.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = E7BDB9F019FEC17400DEDBEC /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E7BDB9DB19FEC0E300DEDBEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7BDB9C519FEC0E300DEDBEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7BDB9CD19FEC0E300DEDBEC;
+			remoteInfo = patagonia;
+		};
+		E7BDB9EF19FEC17400DEDBEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7BDB9EA19FEC17400DEDBEC /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
+			remoteInfo = Alamofire;
+		};
+		E7BDB9F119FEC17400DEDBEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7BDB9EA19FEC17400DEDBEC /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
+			remoteInfo = AlamofireTests;
+		};
+		E7BDB9F319FEC21F00DEDBEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7BDB9EA19FEC17400DEDBEC /* Alamofire.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
+			remoteInfo = Alamofire;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E7BDB9F519FEC22700DEDBEC /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E7BDB9F619FEC23E00DEDBEC /* Alamofire.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E7BDB9CE19FEC0E300DEDBEC /* patagonia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = patagonia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7BDB9D219FEC0E300DEDBEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7BDB9D319FEC0E300DEDBEC /* patagonia.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = patagonia.h; sourceTree = "<group>"; };
+		E7BDB9D919FEC0E300DEDBEC /* patagoniaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = patagoniaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7BDB9DF19FEC0E300DEDBEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7BDB9E019FEC0E300DEDBEC /* patagoniaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = patagoniaTests.swift; sourceTree = "<group>"; };
+		E7BDB9EA19FEC17400DEDBEC /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
+		E7BDB9F719FEC25B00DEDBEC /* Patagonia.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Patagonia.playground; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7BDB9CA19FEC0E300DEDBEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7BDB9D619FEC0E300DEDBEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7BDB9DA19FEC0E300DEDBEC /* patagonia.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E7BDB9C419FEC0E300DEDBEC = {
+			isa = PBXGroup;
+			children = (
+				E7BDB9F719FEC25B00DEDBEC /* Patagonia.playground */,
+				E7BDB9EA19FEC17400DEDBEC /* Alamofire.xcodeproj */,
+				E7BDB9D019FEC0E300DEDBEC /* patagonia */,
+				E7BDB9DD19FEC0E300DEDBEC /* patagoniaTests */,
+				E7BDB9CF19FEC0E300DEDBEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E7BDB9CF19FEC0E300DEDBEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7BDB9CE19FEC0E300DEDBEC /* patagonia.framework */,
+				E7BDB9D919FEC0E300DEDBEC /* patagoniaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7BDB9D019FEC0E300DEDBEC /* patagonia */ = {
+			isa = PBXGroup;
+			children = (
+				E7BDB9D319FEC0E300DEDBEC /* patagonia.h */,
+				E7BDB9D119FEC0E300DEDBEC /* Supporting Files */,
+			);
+			path = patagonia;
+			sourceTree = "<group>";
+		};
+		E7BDB9D119FEC0E300DEDBEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E7BDB9D219FEC0E300DEDBEC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E7BDB9DD19FEC0E300DEDBEC /* patagoniaTests */ = {
+			isa = PBXGroup;
+			children = (
+				E7BDB9E019FEC0E300DEDBEC /* patagoniaTests.swift */,
+				E7BDB9DE19FEC0E300DEDBEC /* Supporting Files */,
+			);
+			path = patagoniaTests;
+			sourceTree = "<group>";
+		};
+		E7BDB9DE19FEC0E300DEDBEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E7BDB9DF19FEC0E300DEDBEC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E7BDB9EB19FEC17400DEDBEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7BDB9F019FEC17400DEDBEC /* Alamofire.framework */,
+				E7BDB9F219FEC17400DEDBEC /* AlamofireTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E7BDB9CB19FEC0E300DEDBEC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7BDB9D419FEC0E300DEDBEC /* patagonia.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E7BDB9CD19FEC0E300DEDBEC /* patagonia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7BDB9E419FEC0E300DEDBEC /* Build configuration list for PBXNativeTarget "patagonia" */;
+			buildPhases = (
+				E7BDB9C919FEC0E300DEDBEC /* Sources */,
+				E7BDB9CA19FEC0E300DEDBEC /* Frameworks */,
+				E7BDB9CB19FEC0E300DEDBEC /* Headers */,
+				E7BDB9CC19FEC0E300DEDBEC /* Resources */,
+				E7BDB9F519FEC22700DEDBEC /* Copy Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7BDB9F419FEC21F00DEDBEC /* PBXTargetDependency */,
+			);
+			name = patagonia;
+			productName = patagonia;
+			productReference = E7BDB9CE19FEC0E300DEDBEC /* patagonia.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E7BDB9D819FEC0E300DEDBEC /* patagoniaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7BDB9E719FEC0E300DEDBEC /* Build configuration list for PBXNativeTarget "patagoniaTests" */;
+			buildPhases = (
+				E7BDB9D519FEC0E300DEDBEC /* Sources */,
+				E7BDB9D619FEC0E300DEDBEC /* Frameworks */,
+				E7BDB9D719FEC0E300DEDBEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7BDB9DC19FEC0E300DEDBEC /* PBXTargetDependency */,
+			);
+			name = patagoniaTests;
+			productName = patagoniaTests;
+			productReference = E7BDB9D919FEC0E300DEDBEC /* patagoniaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7BDB9C519FEC0E300DEDBEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Quinton Wall";
+				TargetAttributes = {
+					E7BDB9CD19FEC0E300DEDBEC = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					E7BDB9D819FEC0E300DEDBEC = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = E7BDB9C819FEC0E300DEDBEC /* Build configuration list for PBXProject "patagonia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E7BDB9C419FEC0E300DEDBEC;
+			productRefGroup = E7BDB9CF19FEC0E300DEDBEC /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E7BDB9EB19FEC17400DEDBEC /* Products */;
+					ProjectRef = E7BDB9EA19FEC17400DEDBEC /* Alamofire.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				E7BDB9CD19FEC0E300DEDBEC /* patagonia */,
+				E7BDB9D819FEC0E300DEDBEC /* patagoniaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		E7BDB9F019FEC17400DEDBEC /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = E7BDB9EF19FEC17400DEDBEC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E7BDB9F219FEC17400DEDBEC /* AlamofireTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = AlamofireTests.xctest;
+			remoteRef = E7BDB9F119FEC17400DEDBEC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7BDB9CC19FEC0E300DEDBEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7BDB9D719FEC0E300DEDBEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7BDB9C919FEC0E300DEDBEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7BDB9D519FEC0E300DEDBEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7BDB9E119FEC0E300DEDBEC /* patagoniaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E7BDB9DC19FEC0E300DEDBEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7BDB9CD19FEC0E300DEDBEC /* patagonia */;
+			targetProxy = E7BDB9DB19FEC0E300DEDBEC /* PBXContainerItemProxy */;
+		};
+		E7BDB9F419FEC21F00DEDBEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			targetProxy = E7BDB9F319FEC21F00DEDBEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E7BDB9E219FEC0E300DEDBEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E7BDB9E319FEC0E300DEDBEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E7BDB9E519FEC0E300DEDBEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = patagonia/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E7BDB9E619FEC0E300DEDBEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = patagonia/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E7BDB9E819FEC0E300DEDBEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = patagoniaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E7BDB9E919FEC0E300DEDBEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = patagoniaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7BDB9C819FEC0E300DEDBEC /* Build configuration list for PBXProject "patagonia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7BDB9E219FEC0E300DEDBEC /* Debug */,
+				E7BDB9E319FEC0E300DEDBEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7BDB9E419FEC0E300DEDBEC /* Build configuration list for PBXNativeTarget "patagonia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7BDB9E519FEC0E300DEDBEC /* Debug */,
+				E7BDB9E619FEC0E300DEDBEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7BDB9E719FEC0E300DEDBEC /* Build configuration list for PBXNativeTarget "patagoniaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7BDB9E819FEC0E300DEDBEC /* Debug */,
+				E7BDB9E919FEC0E300DEDBEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7BDB9C519FEC0E300DEDBEC /* Project object */;
+}
